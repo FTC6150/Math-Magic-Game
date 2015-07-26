@@ -7,4 +7,13 @@ public class DisplayableCard {
     private String name;
     private String image;
 
+    public DisplayableCard(String cardName, String cardImage) {
+        name = cardName;
+        image = cardImage;
+
+    }
+
+    public void Display(boolean faceUp)
+
+
 }
