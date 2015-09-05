@@ -6,14 +6,19 @@ package mathmagic.robotrights436.com.mathmagic;
 public class DisplayableCard {
     private String name;
     private String image;
+    private boolean faceUp = false;
 
-    public DisplayableCard(String cardName, String cardImage) {
+    public DisplayableCard(String cardName, String cardImage)
+    {
         name = cardName;
         image = cardImage;
 
     }
 
-    public void Display(boolean faceUp)
+    public void Display()
+    {
+        faceUp = !faceUp;
+    }
 
 
 }
